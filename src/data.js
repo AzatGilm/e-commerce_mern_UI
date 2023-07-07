@@ -25,17 +25,52 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "1.jpeg",
     title: "SHIRT STYLE!",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "2.jpeg",
     title: "LOUNGEWEAR LOVE",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    img: "3.jpeg",
     title: "LIGHT JACKETS",
   },
 ];
+
+export const popularProducts = [
+  {
+    id:1,
+    img:"1.png",
+  },
+  {
+    id:2,
+    img:"2.png",
+  },
+  {
+    id:3,
+    img:"3.png",
+  },
+  {
+    id:4,
+    img:"4.png",
+  },
+  {
+    id:5,
+    img:"5.png",
+  },
+  {
+    id:6,
+    img:"6.png",
+  },
+  {
+    id:7,
+    img:"7.png",
+  },
+  {
+    id:8,
+    img:"8.png",
+  },
+]

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { useState } from "react";
-import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+// import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
+// import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import { ArrowLeft, ArrowRight } from "@mui/icons-material";
 import { sliderItems } from "../data";
 
 const Container = styled.div`
@@ -92,7 +93,7 @@ const Slider = () => {
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
-        <ArrowLeftIcon />
+        <ArrowLeft />
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
@@ -111,7 +112,7 @@ const Slider = () => {
         ))}
       </Wrapper>
       <Arrow direction="right" onClick={() => handleClick("right")}>
-        <ArrowRightIcon />
+        <ArrowRight />
       </Arrow>
     </Container>
   );
