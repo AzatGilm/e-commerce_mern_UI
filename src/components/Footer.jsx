@@ -74,7 +74,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>Social App</Logo>
+        <Logo>I-shop</Logo>
         <Desc>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           necessitatibus inventore ipsa dolorum voluptas laboriosam amet

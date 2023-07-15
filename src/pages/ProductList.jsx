@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
+import Products from "../components/Products";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 
 const Container = styled.div``;
 
@@ -37,7 +40,7 @@ const ProductList = () => {
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
-          <FilterText>Filter</FilterText>
+          <FilterText>Filter Products:</FilterText>
           <Select>
             <Option disabled selected>
               Color
@@ -69,6 +72,9 @@ const ProductList = () => {
           </Select>
         </Filter>
       </FilterContainer>
+      <Products />
+      <Newsletter />
+      <Footer/>
     </Container>
   );
 };
